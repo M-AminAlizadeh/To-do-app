@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 1px solid green;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.input-container {
+  width: 100%;
+  box-shadow: 1px 1px 20px #afafaf;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+}
+
+.input-container img,
+.todo-item img {
+  cursor: pointer;
+}
+
+.todo-item {
+  background-color: #ccc;
+  padding: 5px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.todo-item-name {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item-name input {
+  margin-right: 1rem;
+}
